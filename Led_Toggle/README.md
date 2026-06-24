@@ -33,7 +33,7 @@ $$\text{Command Category} \longrightarrow \text{Specific Isolated Action}$$
    * **`Led_Off`**: The resting execution branch.
 
 ### 📸 Command Tree Reference Diagram
-![Hyperwisor Commands Visual Builder Setup](Command-tree.png)
+![Hyperwisor Commands Visual Builder Setup](Command-Tree.png)
 
 ---
 
@@ -50,7 +50,8 @@ To make your frontend UI toggle switch actually broadcast these commands down to
 6. Click `+ Action` underneath that container, and pair it with the specific string **`Led_On`**. Leave the Parameters (JSON) input field empty (`{}`).
 
 ### 📸 "ON" Trigger Reference Diagram
-![Switch ON Trigger Configuration](Screenshot_2026-06-24_205614.png)
+![Switch ON Trigger Configuration](Trigger-ON.png)
+![Switch ON Trigger Configuration](Trigger-ON-1.png)
 
 ### Setting Up the "OFF" Event (Flipping the Switch Left)
 1. Add an additional trigger block within the same menu window.
@@ -60,7 +61,8 @@ To make your frontend UI toggle switch actually broadcast these commands down to
 5. Underneath the action block assignment box, switch the target label to read **`Led_Off`**.
 
 ### 📸 "OFF" Trigger Reference Diagram
-![Switch OFF Trigger Configuration](Screenshot_2026-06-24_205630.png)
+![Switch OFF Trigger Configuration](Trigger-OFF.png)
+![Switch OFF Trigger Configuration](Trigger-OFF-1.png)
 
 ---
 
