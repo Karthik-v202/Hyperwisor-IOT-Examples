@@ -33,7 +33,7 @@ $$\text{Command Category} \longrightarrow \text{Specific Isolated Action}$$
    * **`Led_Off`**: The resting execution branch.
 
 ### 📸 Command Tree Reference Diagram
-![Hyperwisor Commands Visual Builder Setup](Screenshot_2026-06-24_205218.png)
+![Hyperwisor Commands Visual Builder Setup](Command-tree.png)
 
 ---
 
