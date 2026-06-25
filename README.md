@@ -27,13 +27,12 @@ Once the code is successfully flashed, the ESP32 will boot into **AP (Access Poi
 4. Navigate to the top navigation bar and select the **Product Management** tab.
 
 ### 📸 Dashboard Navigation Reference
-![Hyperwisor Product Management Navigation](image_310d03.png)
-
+![Hyperwisor Product Management Navigation](Img/Product-Manager.png)
 5. Scroll down to find your registered item card (e.g., *Toggle LED*).
 6. Under **Quick Actions**, click the **Setup Device** button. Follow the on-screen configuration portal instructions to link the hardware cleanly to your local Wi-Fi router.
 
 ### 📸 Device Setup Card Reference
-![Hyperwisor Device Setup Interface](image_310dbf.png)
+![Hyperwisor Device Setup Interface](Img/Setup.png)
 
 ---
 
@@ -47,7 +46,7 @@ To add a provisioned product directly to your personal user control layout, you 
 4. Scan the generated QR code using your smartphone or dashboard camera app to add and authorize the device under your active User Account panel.
 
 ### 📸 Deployment & Overview Console Reference
-![Hyperwisor Development Studio Overview](image_311488.png)
+![Hyperwisor Development Studio Overview](Img/Deploy.png)
 
 ---
 
