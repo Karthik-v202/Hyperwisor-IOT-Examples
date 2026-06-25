@@ -13,7 +13,7 @@ Before compiling and flashing any code to your ESP32, you must ensure that your 
 3. Find the option **Erase All Flash Before Sketch Upload** and change it to **Enabled**.
 
 ### 📸 IDE Configuration Reference
-![Arduino IDE Pre-Upload Configuration](Screenshot_2026-06-25_162905.png)
+![Arduino IDE Pre-Upload Configuration](Img/Arduino-Setup.png)
 
 ---
 
