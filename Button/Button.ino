@@ -63,11 +63,11 @@ void loop() {
 
       if (dashboardValue == HIGH) {
         // Broadcast custom warning status message to the specific canvas text/status widget
-        device.updateWidget(targetId, "widget_1782387622132", "Warning");
+        device.updateWidget(targetId, "WidgetId", "Warning");
         Serial.println("🔴 Button Event: PRESSED (HIGH)");
       } else {
         // Broadcast resting status message to clear the dashboard interface panel
-        device.updateWidget(targetId, "widget_1782387622132", "Safe");
+        device.updateWidget(targetId, "WidgetId", "Safe");
         Serial.println("⚪ Button Event: RELEASED (LOW)");
       }
     }
