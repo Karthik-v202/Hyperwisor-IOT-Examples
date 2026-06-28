@@ -52,6 +52,6 @@ void loop() {
     
     // Stream the raw telemetry data packet straight up to your target dashboard widget.
     // Because this is sensor data, no Command Tree or Action parameters are required!
-    device.updateWidget(targetId, "widget_1782486557785", val);
+    device.updateWidget(targetId, "WidgetId", val);
   }
 }
