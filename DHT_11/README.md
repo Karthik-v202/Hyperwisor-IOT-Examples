@@ -24,7 +24,7 @@ To display both environmental streams simultaneously, you must configure two sep
    * **Humidity Target Destination:** Must match exactly: **`widget_1781843536519`**
 
 ### 📸 Dashboard UI Widget Setup
-![Hyperwisor Dashboard Layout Configuration](Setup.png)
+![Hyperwisor Dashboard Layout Configuration](Setup1.png)
 
 ---
 
@@ -37,7 +37,7 @@ The DHT11 sensor utilizes a proprietary single-bus synchronous serial protocol t
 * **Power & Pull-Up:** Connect **`VCC`** to a stable $3.3\text{V}$ or $5\text{V}$ rail, and tie **`GND`** directly to an ESP32 ground pin. If your sensor module does not feature a built-in breakout board resistor, attach an external $4.7\,\text{k}\Omega$ to $10\,\text{k}\Omega$ pull-up resistor between the data line and the VCC line.
 
 ### 📸 Hardware Wiring & Pinout Reference
-![Physical DHT11 Sensor Setup and ESP32 Connections](Setup1.png)
+![Physical DHT11 Sensor Setup and ESP32 Connections](Setup2.png)
 
 ### ⚠️ The 2-Second Sampling Threshold Constraint
 The DHT11 is a mechanically slow-response thermal element. Attempting to poll or query the internal registers faster than once every 2000 milliseconds will result in a data conflict, throwing validation reading errors (`nan` / Not-A-Number failures). 
