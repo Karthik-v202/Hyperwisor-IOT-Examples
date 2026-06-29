@@ -48,8 +48,8 @@ To tie your canvas slider component to the control configuration bus, configure 
 5. Map the target container dropdown option to **`CMD`**, point the execution action string to **`Action`**, and ensure the incoming parameter mappings are bound to the `value` context.
 
 ### 📸 Slider Trigger Mapping Mappings
-![Slider Main Configuration](Setup1.png)
-![Slider Main Trigger Configuration](Setup2.png)
+![Slider Main Configuration](Setup.png)
+![Slider Main Trigger Configuration](Setup1.png)
 ![Slider Main Trigger Configuration](Setup3.png)
 
 ---
