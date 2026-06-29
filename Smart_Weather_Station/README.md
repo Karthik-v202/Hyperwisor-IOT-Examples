@@ -13,7 +13,7 @@ This project runs entirely on a **one-way telemetric data pipeline** for the sen
 
 ---
 
-## 🎛️ 2. Dashboard Widget Configuration
+## 🎛️ 2. Dashboard Widget Configuration & Demo
 
 To visualize your environmental station data, map five telemetry display units and one digital alert component inside your interface designer workspace.
 
@@ -25,8 +25,12 @@ To visualize your environmental station data, map five telemetry display units a
 5. **Gas Level Indicator:** A gauge or linear progress widget showing mapped values ($0-100\%$)
 6. **Gas Status Alert Banner:** A digital indicator block showing raw status string evaluations (`"Safe"` or `"Warning"`)
 
-### 📸 Dashboard UI Components Layout
-![Hyperwisor Dashboard Layout Canvas Workspace](Setup1.png)
+### 📸 Workspace Interface Canvas Setup
+![Hyperwisor Dashboard Layout Canvas Properties and ID Mapping](Setup1.png)
+
+### 📸 Active Dashboard Demonstration & Telemetry Operations
+![Hyperwisor Dashboard Running Environment Data Stream Demo](Demo1.jpeg)
+![Hyperwisor Dashboard Running Threshold Status Flag Demo](Demo2.jpeg)
 
 ---
 
@@ -36,7 +40,7 @@ To support the threshold validation logic, ensure your backend profile workspace
 
 $$\text{Command Container Group} \longrightarrow \text{Action Target} \longrightarrow \text{Parameter State}$$
 
-### 📸 Command Tree Configurations
+### 📸 Command Tree Hierarchy Configurations
 ![Hyperwisor Commands Visual Builder Tree Setup Branch 1](CommandTree1.png)
 ![Hyperwisor Commands Visual Builder Tree Setup Branch 2](CommandTree2.png)
 
